@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+*{
+    box-sizing: border-box;
+    font-family: 'Libre Baskerville', serif;
+    background-color: rgb(192, 192, 192);
+    color: rgb(32, 98, 221);
+    margin: 0;
+}
+
+h1{
+    padding:30px;
+    font-size: 4rem;
+    text-align: center;
+    color: aqua;
+    background-color: black;
+}
+#container{
+    display: grid;
+    grid-template-columns: 180px 180px 180px;
+    grid-template-rows: 180px 180px 180px;
+    justify-content: center;
+}
+
+.box{
+    border: 2px solid rgb(231, 41, 41);
+    display: flex;
+    font-size: 7.6rem;
+    color:  aqua;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(14, 17, 24);
+}
+.box:hover{
+    background-color: rgb(73, 92, 160);
+}
+
+#winner{
+    font-size: 5rem;
+    text-align: center;
+}
+
+#Score{
+    text-align: center;
+    font-size: 3rem;
+    display: flex;
+    gap: 300px;
+    justify-content: center;
+}
+
+#btn{
+    display: flex;
+    justify-content: center;
+}
+#reset{
+    padding: 10px;
+    width: 200px;
+    font-size: 2.5rem;
+    font-family: 'Metal Mania';
+    margin-bottom: 10px;
+    color:rgb(52, 205, 200);
+    background-color: rgb(32, 98, 221);
+    border-radius: 20px;
+    border: none;
+    transition: 300ms;
+}
+
+#reset:hover{
+    background-color: rgb(173, 23, 23);
+    cursor: pointer;
+}
+p,#winner{
+    color: rgb(45, 47, 133);
+    padding: 20px;
+}
